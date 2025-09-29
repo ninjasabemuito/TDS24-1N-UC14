@@ -6,6 +6,7 @@ import Titulo from "./components/Titulo";
 export default function App(){
   // Array de objetos representando os jogadores 
   // Cada objeto tem id e as props nome, posicao, time, avaliacao e imagem
+
   const jogadores = [
     {
       id: 1, 
@@ -19,7 +20,7 @@ export default function App(){
     },
     { 
       id: 2, 
-      nome: "Cristiano Ronaldo",
+      nome: "CR7  ",
       posicao: "Atacante",
       avaliacao: 100, 
       time: "Al-Nassr",
