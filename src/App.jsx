@@ -10,6 +10,7 @@ export default function App(){
     {
       id: 1, 
       nome: "Neymito",
+      time: "Santos",
       posicao: "atacante", 
       imagem: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSq-FoDF-DbpqB35H4BHxMHwzDeMYszGQIkgim1D-YNaolwhl_d3QYH_0-b9XdQ0OVdbmmzk8gJ-h4xb6UgJsWCJSSr3j_DKpQlML1TrjF",
       avaliacao: 100
