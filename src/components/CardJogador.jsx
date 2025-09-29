@@ -14,13 +14,13 @@ export default function CardJogador({nome, posicao, time, avaliacao, imagem}){
             {/**Bloco de informações textuais ao lado da imagem */}
             <div className="cj-info">
                 {/**Nome do jogador */}
-                <h3 className="cj-nome">{nome}</h3>
-                <span className="cj-etiqueta"> {posicao}</span>
+                <h3 className="cj-nome"> { nome } </h3>
+                <span className="cj-etiqueta"> {posicao} </span>
             </div>  
                 {/** Área de informações resumidas como time e avaliação */}
                 <div className="cj-meta">
                     <span><strong> Time:</strong> {time}</span>
-                    <span><strong> Avaliação:</strong>{avaliacao}</span>
+                    <span><strong> Avaliação:</strong> {avaliacao}</span>
                 </div>
 
         </div>
